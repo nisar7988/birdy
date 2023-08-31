@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans Mono', monospace;
+    overflow: hidden;
+  }
+  body{
+    background-color: #9171BC;
+
+  }
+  h1{
+  
+  margin-top: 1vh;
+
+    font-weight: 22px;
+    color: #fff8f8;
+    font-size: 4vh;
+    text-align: center;
+ 
+  
+  }
+  .container{
+   height: 90vh;
+   width: 100%;
+ 
+  }
+  .crow{
+    position: absolute;
+    top: 400px;
+   height: 17vh;
+   width: 45vw;
+    }
+    .start{padding: 2px 0 0 9px;
+    align-content: center;
+    margin: 17vh 0 0 39vw;
+      align-items: center;
+      background-size: red;
+      height: 5vh;
+      width: 15vw;
+      font-size: 3vh;
+      color: white;
+      border: solid 3px #006716 ;
+     border-radius:30px;
+    box-shadow: #A3E6B1;
+    display: none;
+    }
+
+     
+     .btns{position: absolute;
+     top:70%;
+     height:15vh;
+     width: 16vw;
+     left: 43%;
+      visibility: hidden;
+     }
+    .btns button{
+      display: flex;
+      justify-content: center;
+     align-items: center;
+      font-size: 7vh;
+      height: 5.4vh;
+      width: 12vw;
+    }
+    #top{
+      transform: rotate(270deg)
+    }
+    #left{
+      position: absolute;
+      right: 16vw;
+    }
+    #right{
+      position: absolute;
+      left:12vw;
+      top:5.5vh;
+    }
+    #bottom{
+      position: absolute;
+      top: 11vh;
+  transform: rotate(270deg)
+    }
+    .game{
+     position: relative;
+     top: 20px;
+     height: 85vh;
+    max-width :100vw; 
+    margin: 0 10px;
+
+  background-color: #7831D1;
+      border:solid #26ADB7;
+    }
+    footer{position: fixed;
+        bottom: 0;
+      padding-top: 0.7vh;
+      text-align: center;
+      height:3vh;
+      width: 100%;
+color: white;
+      background-color: black
+    }
+    .chicken img{
+      width:15vw;
+      height: 13vh;
+    }
+    .chicken{
+
+      border-top: solid 2px #3C449A;
+      border-bottom: double  4px #3C449A;
+      display: flex;
+      justify-content: space-around;
+    }
+     .egg{
+     
+       visibility: hidden;
+     position: absolute;
+     top:14vh;
+       margin-left: 6vw;
+       height: 8vh;
+       width: 3vw;
+       background-color: white;
+       border-radius: 46vh;
+
+     }
+
+     
